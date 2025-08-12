@@ -2,7 +2,7 @@
 
 An interactive, role-aware onboarding checklist generator. It pulls content from your own webpages, stores it in Chroma (vector DB), and—using a Retrieval-Augmented Generation (RAG) chain—creates a manager-facing checklist you can check off right inside a Jupyter notebook. When everything’s done, you get a tasteful 🎉 completion banner.
 
-## Features ##
+## 🛠️ Features ##
 1. Role / level aware retrieval (IT, HR, Finance; Junior/Specialist/Senior; hire type).
 2. Grounded answers: pulls only from your indexed URLs (no “model memory”).
 3. Interactive UI (ipywidgets): checkboxes, live progress, add/edit/remove items.
@@ -33,7 +33,7 @@ If your pages are JS-heavy, also install Playwright and switch the loader:
 pip install playwright && playwright install
 ```
 
-**How to Work with it?**
+**🧑‍🏫 How to Work with it?**
 
 1) Index your URLs (one-time or when content changes)
 Run build_index.py file. Create your Chroma collection. Note the dept tag and urls of your choice.
