@@ -3,11 +3,11 @@
 An interactive, role-aware onboarding checklist generator. It pulls content from your own webpages, stores it in Chroma (vector DB), and—using a Retrieval-Augmented Generation (RAG) chain—creates a manager-facing checklist you can check off right inside a Jupyter notebook. When everything’s done, you get a tasteful 🎉 completion banner.
 
 ## Features ##
-Role / level aware retrieval (IT, HR, Finance; Junior/Specialist/Senior; hire type).
-Grounded answers: pulls only from your indexed URLs (no “model memory”).
-Interactive UI (ipywidgets): checkboxes, live progress, add/edit/remove items.
-Completion celebration when all tasks are checked off.
-References: show which URLs informed the checklist.
+1. Role / level aware retrieval (IT, HR, Finance; Junior/Specialist/Senior; hire type).
+2. Grounded answers: pulls only from your indexed URLs (no “model memory”).
+3. Interactive UI (ipywidgets): checkboxes, live progress, add/edit/remove items.
+4. Completion celebration when all tasks are checked off.
+5. References: show which URLs informed the checklist.
 
 **🚀 Prerequisites**
 
