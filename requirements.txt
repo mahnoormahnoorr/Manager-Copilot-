@@ -1,0 +1,22 @@
+# Core LangChain stack
+langchain>=0.2.7,<0.3
+langchain-core>=0.2.7,<0.3
+langchain-community>=0.2.7,<0.3
+langchain-openai>=0.1.8,<0.2
+
+# Vector DB + tokenization
+chromadb>=0.5.4,<0.6
+tiktoken>=0.7.0
+
+# LLM + schema
+openai>=1.40.0,<2
+pydantic>=2.5,<3
+
+# Web loading (for WebBaseLoader) 
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Notebook UI
+ipywidgets>=8.1.0
+jupyterlab>=4.0.0
+
