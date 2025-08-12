@@ -33,6 +33,18 @@ If your pages are JS-heavy, also install Playwright and switch the loader:
 pip install playwright && playwright install
 ```
 
+**How to Work with it?**
+
+1) Index your URLs (one-time or when content changes)
+Run build_index.py file. Create your Chroma collection. Note the dept tag and urls of your choice.
+
+2) Run the interactive checklist UI
+Run onboarding_assistant.py file. Pick a Role, Level, and Hire type, enter a brief Task (e.g., “Onboard a new employee in Espoo (30 days)”), then click Generate Checklist—the app retrieves relevant policy chunks from your Chroma index and uses RAG with OpenAI to produce a role-aware checklist. You’ll get an interactive list you can check off, edit inline, and add/delete items from, with a live progress bar and a small celebration when everything’s complete. Because it’s grounded in your indexed pages, the output reflects your policies—not the model’s guesses.
+
+
+📝 Acknowledgments
+
+Built with LangChain, Chroma, OpenAI, and ipywidgets.
 
 
 
