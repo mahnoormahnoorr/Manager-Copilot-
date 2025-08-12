@@ -12,16 +12,16 @@ An interactive, role-aware onboarding checklist generator. It pulls content from
 **🚀 Prerequisites**
 
 To run this starter code, you will need: 
-Python 3.9+
-JupyterLab / Notebook
-Packages (minimal):
+- Python 3.9+
+- JupyterLab / Notebook
+- Packages (minimal):
 
 ```bash
 pip install langchain langchain-community langchain-openai \
            chromadb tiktoken ipywidgets pydantic
 ```
 
-An OpenAI API key:
+- An OpenAI API key:
 
 ```bash
 export OPENAI_API_KEY=sk-...
